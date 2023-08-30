@@ -1,0 +1,17 @@
+package vishalini.M;
+import java.util.Scanner;
+public class mailvalidator {
+  public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+     System.out.println("Enter your Email Address: ");
+     String email = sc.next();
+     String regex = "^[a-zA-Z]+@[a-zA-Z0-9.-]+$";
+     //Matching the given phone number with regular expression
+     boolean result = email.matches(regex);
+     if(result) {
+        System.out.println("Given email-id is Valid");
+     } else {
+        System.out.println("Given email-id is  Invalid");
+     }
+  }
+}
