@@ -1,0 +1,13 @@
+Algorithm:
+
+ 1. a regular expression pattern that covers the required rules:
+   Start with an alphabetic character.
+   Followed by alphanumeric characters and underscores.
+   Must have an "@" symbol.
+   Followed by an alphabetic domain name.
+   Optionally followed by a period and alphabetic top-level domain (TLD).
+ 2.Ask the user to input an email address.
+
+3. Use the matches method of the String class along with the regular expression pattern to validate the email address.
+
+4. Print "Valid" or "Invalid" based on the result of the validation.

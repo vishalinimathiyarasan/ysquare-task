@@ -1,0 +1,14 @@
+Algorithm:
+
+1. create the Calculator interface with the power(a, b) method signature.
+
+2. Create the PowerCalculator class that implements the Calculator interface.
+   In the power(a, b) method:
+  Check if either a or b is negative. If so, throw an exception.
+   Calculate the power using Math.pow(a, b) and round the result to one decimal place.
+
+ 3. ExceptionHanding program:
+   Parse the two command-line arguments as doubles.
+  Create an instance of PowerCalculator.
+  Call the power(a, b) method and catch any exceptions that are thrown.
+  Print the result if the calculation is successful, or print an error message if an exception occurs.

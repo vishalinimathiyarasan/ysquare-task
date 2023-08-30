@@ -1,0 +1,17 @@
+Algorithm:
+
+1.create an Account class with fields id, accountNumber, and accountBalance.
+2.Define a User class with fields id, userName, password, email, and account (type: Account).
+3.Create a list (e.g., ArrayList) to store created users.
+4.Display a menu with options:
+   "Create User"
+   "Show Users"
+   "Exit"
+5.If the user selects "Create User":
+   Prompt the user to enter user information (id, user_name, password, email).
+   Prompt the user to enter account information (id, account_number, account_balance).
+   Create an Account object and a User object with the entered information.
+   Add the created user to the list.
+6.If the user selects "Show Users":
+   Iterate through the list of users and display their information.
+7.If the user selects "Exit", terminate the program.
